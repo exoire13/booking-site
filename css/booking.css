@@ -260,16 +260,3 @@ grid-template-columns:1fr;
     opacity: 0.6;
 }
 
-#callCancelBtn {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #ff4444;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-#callCancelBtn:hover {
-    background: #cc0000;
-}
