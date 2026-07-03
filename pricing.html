@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pricing | ABC Baseball</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/pricing.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">
+        ⚾ ABC Baseball
+    </div>
+
+    <div class="menu-toggle" id="mobile-menu">
+        ☰
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="booking.html">Book</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="lessons.html">Lessons</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- HEADER -->
+<header class="pricing-header">
+  <h1>Pricing Plans</h1>
+  <p>Choose the perfect plan for your training sessions</p>
+</header>
+
+<!-- TOGGLE -->
+<div class="toggle-container">
+  <div class="toggle">
+    <button id="hourlyBtn" class="active" onclick="showHourly()">Hourly</button>
+    <button id="monthlyBtn" onclick="showMonthly()">Monthly</button>
+  </div>
+</div>
+
+<!-- HOURLY -->
+<section id="hourly" class="pricing-grid">
+
+  <div class="price-card">
+    <h3>Basic</h3>
+    <span>$20/hr</span>
+    <ul>
+      <li>1 Cage Access</li>
+      <li>Basic Equipment</li>
+      <li>Standard Booking</li>
+    </ul>
+    <a href="booking.html">Book Now</a>
+  </div>
+
+  <div class="price-card featured">
+    <h3>Pro</h3>
+    <span>$35/hr</span>
+    <ul>
+      <li>Premium Cage</li>
+      <li>All Equipment</li>
+      <li>Priority Booking</li>
+    </ul>
+    <a href="booking.html">Book Now</a>
+  </div>
+
+  <div class="price-card">
+    <h3>Team</h3>
+    <span>$60/hr</span>
+    <ul>
+      <li>Full Field Access</li>
+      <li>Team Sessions</li>
+      <li>Coach Support</li>
+    </ul>
+    <a href="booking.html">Book Now</a>
+  </div>
+
+</section>
+
+<!-- MONTHLY -->
+<section id="monthly" class="pricing-grid hidden">
+
+  <div class="price-card">
+    <h3>Basic</h3>
+    <span>$199/mo</span>
+    <ul>
+      <li>Unlimited Cage Access</li>
+      <li>Standard Equipment</li>
+      <li>Email Support</li>
+    </ul>
+    <a href="booking.html">Get Started</a>
+  </div>
+
+  <div class="price-card featured">
+    <h3>Pro</h3>
+    <span>$299/mo</span>
+    <ul>
+      <li>Priority Access</li>
+      <li>Premium Equipment</li>
+      <li>Priority Booking</li>
+    </ul>
+    <a href="booking.html">Get Started</a>
+  </div>
+
+  <div class="price-card">
+    <h3>Team</h3>
+    <span>$499/mo</span>
+    <ul>
+      <li>Unlimited Field Access</li>
+      <li>Team Training Sessions</li>
+      <li>Coach Support</li>
+    </ul>
+    <a href="booking.html">Get Started</a>
+  </div>
+
+</section>
+
+<script src="js/pricing.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
